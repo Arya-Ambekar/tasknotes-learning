@@ -1,0 +1,21 @@
+# Local PHP credentials
+/v1-php/db.php
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# PHP dependencies
+**/vendor/
+
+# Node dependencies and build output
+**/node_modules/
+**/.svelte-kit/
+**/build/
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db
+
